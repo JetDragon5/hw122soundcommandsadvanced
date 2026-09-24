@@ -23,6 +23,11 @@ function preload(){
     orange = loadImage("ORANGE.png");
     dog = loadImage("dog.png");
     cat = loadImage("cat.png");
+
+    apple.resize(50, 50);
+    orange.resize(50, 50);
+    dog.resize(50, 50);
+    cat.resize(50, 50);
 }
 
 function setup(){
