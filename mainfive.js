@@ -57,7 +57,7 @@ recognition.onresult = function(event) {
     
 
     contentInt = parseInt(content);
-    if(contentInt != NaN){
+    if(contentInt == NaN){
     if(contentLower.includes("one")){
         contentInt = 1;
         console.log(" 1wow wow wow 1;");
